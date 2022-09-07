@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="css/slick.css">
+   <link rel="stylesheet" href="css/jquery.fancybox.css">
+   <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Lesson 12</title>
+</head>
+
+<body>
+
+   <header class="header">
+      <div class="container">
+         <div class="header__nav">
+            <nav class="menu js-header">
+               <a href="#home" class="menu__logo"><img src="img/logo.png" alt=""></a>
+               <ul class="menu__list">
+                  <li class="menu__item"><a href="#service" class="menu__link">Послуги</a></li>
+                  <li class="menu__item"><a href="#rent" class="menu__link">Оренда кранів</a></li>
+                  <li class="menu__item"><a href="#work" class="menu__link">Вакансії</a></li>
+                  <li class="menu__item"><a href="#contact" class="menu__link">Контакти</a></li>
+               </ul>
+               <div class="hamburger">
+                  <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+               </div>
+
+            </nav>
+         </div>
+      </div>
+   </header>
+
+
+   <section class="headertop">
+      <div class="headertop__inner">
+
+         <div class="headertop__item">
+            <div class="container">
+               <div class="headertop__text">
+                  <h1 class="headertop__title">Оренда баштових кранів</h1>
+                  <div class="headertop__subtitle">По всій Україні</div>
+                  <div class="headertop__tell">Телефонуйте <a href="tel:380670000000">+38 (067) 00 00 000</a></div>
+                  <a href="#form" class="headertop__btn btn">Залишити заявку</a>
+               </div>
+            </div>
+         </div>
+      </div>
+      </div>
+   </section>
+
+   <div class="servise" id="service">
+      <div class="container">
+         <div class="servise__title title">Які послуги ми надаємо</div>
+         <div class="servise__inner">
+
+            <div class="servise__item">
+               <img src="img/png/1.png" alt="" class="servise__img">
+               <div class="servise__text">Монтаж та демонтаж</div>
+            </div>
+
+            <div class="servise__item">
+               <img src="img/png/2.png" alt="" class="servise__img">
+               <div class="servise__text">Доставка на об'єкт</div>
+            </div>
+
+            <div class="servise__item">
+               <img src="img/png/3.png" alt="" class="servise__img">
+               <div class="servise__text">Ремонт баштових кранів</div>
+            </div>
+
+            <div class="servise__item">
+               <img src="img/png/4.png" alt="" class="servise__img">
+               <div class="servise__text">Технічне обслуговування</div>
+            </div>
+
+            <div class="servise__item">
+               <img src="img/png/5.png" alt="" class="servise__img">
+               <div class="servise__text">Поставка запчастин</div>
+            </div>
+
+         </div>
+      </div>
+
+
+   </div>
+
+   <div class="rent" id="rent">
+      <div class="container">
+         <div class="rent__title title">Оренда баштових кранів</div>
+         <div class="rent__top">
+            <button class="rent__btn" data-filter="all">Всі</button>
+            <button class="rent__btn" data-filter=".category-a">liebherr</button>
+            <button class="rent__btn" data-filter=".category-b">potain</button>
+            <button class="rent__btn" data-filter=".category-c">terex</button>
+         </div>
+
+         <div class="rent__galery-content">
+            <div class="rent__galery">
+               <div class="rent__galery-item mix category-a"><img src="img/service/1.jpg" alt="">
+                  <div class="rent__text">
+                     <div class="rent__tit">liebherr</div>
+                     <div class="rent__subtitle">140 EC-H</div>
+                  </div>
+               </div>
+            </div>
+            <div class="rent__galery">
+               <div class="rent__galery-item mix category-a"><img src="img/service/2.jpg" alt="">
+                  <div class="rent__text">
+                     <div class="rent__tit">liebherr</div>
+                     <div class="rent__subtitle">140 EC-H</div>
+                  </div>
+               </div>
+            </div>
+            <div class="rent__galery">
+               <div class="rent__galery-item mix category-a"><img src="img/service/3.jpg" alt="">
+                  <div class="rent__text">
+                     <div class="rent__tit">liebherr</div>
+                     <div class="rent__subtitle">140 EC-H</div>
+                  </div>
+               </div>
+            </div>
+            <div class="rent__galery">
+               <div class="rent__galery-item mix category-a"><img src="img/service/4.jpg" alt="">
+                  <div class="rent__text">
+                     <div class="rent__tit">liebherr</div>
+                     <div class="rent__subtitle">140 EC-H</div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="rent__galery">
+               <div class="rent__galery-item mix category-b"><img src="img/service/5.jpg" alt="">
+                  <div class="rent__text">
+                     <div class="rent__tit">potain</div>
+                     <div class="rent__subtitle">140 EC-H</div>
+                  </div>
+               </div>
+            </div>
+            <div class="rent__galery">
+               <div class="rent__galery-item mix category-b"><img src="img/service/6.jpg" alt="">
+                  <div class="rent__text">
+                     <div class="rent__tit">potain</div>
+                     <div class="rent__subtitle">140 EC-H</div>
+                  </div>
+               </div>
+            </div>
+            <div class="rent__galery">
+               <div class="rent__galery-item mix category-b"><img src="img/service/7.jpg" alt="">
+                  <div class="rent__text">
+                     <div class="rent__tit">potain</div>
+                     <div class="rent__subtitle">140 EC-H</div>
+                  </div>
+               </div>
+            </div>
+            <div class="rent__galery">
+               <div class="rent__galery-item mix category-b"><img src="img/service/8.jpg" alt="">
+                  <div class="rent__text">
+                     <div class="rent__tit">potain</div>
+                     <div class="rent__subtitle">140 EC-H</div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="rent__galery">
+               <div class="rent__galery-item mix category-c"><img src="img/service/9.jpg" alt="">
+                  <div class="rent__text">
+                     <div class="rent__tit">terex</div>
+                     <div class="rent__subtitle">140 EC-H</div>
+                  </div>
+               </div>
+            </div>
+            <div class="rent__galery">
+               <div class="rent__galery-item mix category-c"><img src="img/service/10.jpg" alt="">
+                  <div class="rent__text">
+                     <div class="rent__tit">terex</div>
+                     <div class="rent__subtitle">140 EC-H</div>
+                  </div>
+               </div>
+            </div>
+            <div class="rent__galery">
+               <div class="rent__galery-item mix category-c"><img src="img/service/11.jpg" alt="">
+                  <div class="rent__text">
+                     <div class="rent__tit">terex</div>
+                     <div class="rent__subtitle">140 EC-H</div>
+                  </div>
+               </div>
+            </div>
+            <div class="rent__galery">
+               <div class="rent__galery-item mix category-c"><img src="img/service/12.jpg" alt="">
+                  <div class="rent__text">
+                     <div class="rent__tit">terex</div>
+                     <div class="rent__subtitle">140 EC-H</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+
+
+      </div>
+   </div>
+
+
+   <div class="howwe">
+      <div class="container">
+         <div class="howwe__title title">Як ми працюємо</div>
+         <div class="howwe__inner">
+
+            <div class="howwe__content">
+               <div class="howwe__content-title">Заявка</div>
+               <div class="howwe__content-text">Ви залишаєте заявку на оренду баштового крану</div>
+            </div>
+
+            <div class="howwe__content">
+               <div class="howwe__content-title">Деталі оренди</div>
+               <div class="howwe__content-text">Ми зустрічаємось з вами та уточнюємо деталі оренди, доставки, монтажу
+               </div>
+            </div>
+
+            <div class="howwe__content">
+               <div class="howwe__content-title">Договір оренди</div>
+               <div class="howwe__content-text">Складаємо та підписуємо індивідуальний договір оренди. Після цього
+                  техніка їде до Вас</div>
+            </div>
+
+         </div>
+
+
+      </div>
+   </div>
+
+
+   <div class="forma" id="form">
+      <div class="container">
+         <div class="form__title title">Залишити заявку</div>
+         <form name="test" action="#" class="form" method="post" enctype="multipart/form-data">
+
+            <label class="form__label">
+               <input class="input input-name" type="text" data-validate-field="name" name="Ім'я"
+                  placeholder="Введіть ім'я">
+            </label>
+
+            <label class="form__label">
+               <input type="mail" class="input input-mail" data-validate-field="email" name="Email"
+                  placeholder="Введіть email">
+            </label>
+
+            <label class="form__label">
+               <input class="input input-tel" type="tel" data-validate-field="tel" name="Телефон"
+                  placeholder="Введіть телефон">
+            </label>
+
+            
+            <button class="button btn">Відправити</button>
+         </form>
+
+      </div>
+   </div>
+
+
+
+
+
+
+   <div class="work" id="work">
+      <div class="container">
+         <div class="work__title title">Вакансії</div>
+         <div class="work__inner">
+
+            <div class="work__items">
+               <div class="work__content">
+                  <div class="work__content-title">Машиніст баштового крану</div>
+                  <div class="work__content-text">Освіта: не нижче середньої</div>
+                  <div class="work__content-text">Досвід роботи: від 1 року</div>
+                  <div class="work__content-tell">Телефонуйте <a href="tel:380670000000">+38 (067) 00 00 000</a></div>
+                  <a href="#form" class="work__content-btn ">Відправити заявку</a>
+               </div>
+
+               <div class="work__content">
+                  <div class="work__content-title">Монтажник баштових кранів</div>
+                  <div class="work__content-text">Освіта: не нижче середньої</div>
+                  <div class="work__content-text">Досвід роботи: від 1 року</div>
+                  <div class="work__content-tell">Телефонуйте <a href="tel:380670000000">+38 (067) 00 00 000</a></div>
+                  <a href="#form" class="work__content-btn ">Відправити заявку</a>
+               </div>
+            </div>
+
+            <div class="work__items">
+               <div class="work__content">
+                  <div class="work__content-title">Електрик по обслуговуванню баштових кранів</div>
+                  <div class="work__content-text">Освіта: не нижче середньої</div>
+                  <div class="work__content-text">Досвід роботи: від 1 року</div>
+                  <div class="work__content-tell">Телефонуйте <a href="tel:380670000000">+38 (067) 00 00 000</a></div>
+                  <a href="#form" class="work__content-btn">Відправити заявку</a>
+               </div>
+
+               <div class="work__content">
+                  <div class="work__content-title">Комірник</div>
+                  <div class="work__content-text">Освіта: не нижче середньої</div>
+                  <div class="work__content-text">Досвід роботи: від 1 року</div>
+                  <div class="work__content-tell">Телефонуйте <a href="tel:380670000000">+38 (067) 00 00 000</a></div>
+                  <a href="#form" class="work__content-btn">Відправити заявку</a>
+               </div>
+            </div>
+
+         </div>
+      </div>
+   </div>
+
+   <div class="contact" id="contact">
+      <div class="container">
+         <div class="contact__inner">
+
+            <div class="contact__content">
+               <div class="contact__title">Про нас</div>
+               <div class="contact__text">Ми пропонуємо оренду, доставку, монтаж та обслуговування кранів для
+                  будівництва будинків</div>
+
+            </div>
+
+            <div class="contact__content">
+               <div class="contact__title">Графік роботи</div>
+               <div class="contact__text">ПН-СБ 08:00 - 18:00</div>
+               <div class="contact__text">НД - вихідний</div>
+               <div class="contact__tex">Технічна підтримка 24/7</div>
+
+            </div>
+
+            <div class="contact__content">
+               <div class="contact__title">Контакти</div>
+               <div class="contact__text">Адреса: м.Вінниця вул. Вінницька 1</div>
+               <div class="contact__text"><a href="tel:380670000000">+38 (067) 00 00 000</a></div>
+               <div class="contact__text">myemail@gmail.com</div>
+
+            </div>
+
+
+         </div>
+      </div>
+   </div>
+
+   
+
+
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="js/slick.min.js"></script>
+   <script src="js/mixitup.min.js"></script>
+   <script src="js/jquery.fancybox.min.js"></script>
+   <script src="js/inputmask.min.js"></script>
+   <script src="js/just-validate.min.js"></script>
+   <script src="js/main.js"></script>
+</body>
+
+
+</html>
